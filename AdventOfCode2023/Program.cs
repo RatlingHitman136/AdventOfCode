@@ -7,8 +7,7 @@ namespace AdventOfCode
     {
         static public void Main(String[] args)
         {
-            var data = InputLoader.GetInput();
-            OutputLoader.WriteOutput(data);
+
         }
     }
 }

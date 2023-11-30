@@ -9,7 +9,7 @@ namespace AdventOfCode.Tools
 {
     public static class InputLoader
     {
-        const string pathIn = "AdventOfCode.input.in";
+        const string pathIn = "AdventOfCode2023.input.in";
 
         public static string[] GetInput()
         {
