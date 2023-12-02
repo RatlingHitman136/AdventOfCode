@@ -9,7 +9,7 @@ namespace AdventOfCode
     {
         static public void Main(String[] args)
         {
-            Day2.Part1();
+            Day2.Part2();
         }
     }
 }
