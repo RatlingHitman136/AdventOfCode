@@ -21,5 +21,15 @@ namespace AdventOfCode.Tools
             streamWriter.Write(lines);
             streamWriter.Close();
         }
+
+        public static void WriteOutput(string line)
+        {
+            WriteOutput(new string[] { line });
+        }
+
+        public static void WriteOutput(int num)
+        {
+            WriteOutput(new string[] { num.ToString() });
+        }
     }
 }
