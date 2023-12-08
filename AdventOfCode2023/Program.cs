@@ -7,6 +7,7 @@ using AdventOfCode2023.Day4;
 using AdventOfCode2023.Day5;
 using AdventOfCode2023.Day6;
 using AdventOfCode2023.Day7;
+using AdventOfCode2023.Day8;
 
 namespace AdventOfCode
 {
@@ -14,7 +15,7 @@ namespace AdventOfCode
     {
         static public void Main(String[] args)
         {
-            Day7.Part2();
+            Day8.Part2();
         }
     }
 }
