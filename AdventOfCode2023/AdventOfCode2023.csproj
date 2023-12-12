@@ -15,4 +15,9 @@
     <EmbeddedResource Include="input.in" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PostSharp" Version="2023.0.8" />
+    <PackageReference Include="PostSharp.Patterns.Caching" Version="2023.0.8" />
+  </ItemGroup>
+
 </Project>
