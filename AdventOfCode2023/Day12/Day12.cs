@@ -5,8 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PostSharp.Patterns.Caching;
-using PostSharp.Patterns.Caching.Backends;
+
 
 namespace AdventOfCode2023.Day12
 {
@@ -97,7 +96,7 @@ namespace AdventOfCode2023.Day12
             OutputLoader.WriteOutput(res);
         }
 
-        [Cache]
+
         public static int CountComb2(string s, int[] ints, int i, int seqCount, int seqId)
         {
             if (i >= s.Length)
