@@ -243,11 +243,7 @@ namespace AdventOfCode2023.Day19
             return res + CalcCombForWorkflow(workflows[cur.endWorkflow], workflows, minX, maxX, minM, maxM, minA, maxA, minS, maxS);
         }
 
-        public static long CalcComb(long minX, long maxX, long minM, long maxM, long minA, long maxA, long minS, long maxS)
-        {
-            if (maxX - minX < 0 || maxM - minM < 0 || maxS - minS < 0 || maxA - minA < 0)
-                return 0;
-            return (maxX - minX + 1) * (maxM - minM + 1) * (maxS - minS + 1) * (maxA - minA + 1);
-        }
+        public static long CalcComb(long minX, long maxX, long minM, long maxM, long minA, long maxA, long minS, long maxS) 
+            => Math.Max((maxX - minX + 1) * (maxM - minM + 1) * (maxS - minS + 1) * (maxA - minA + 1), 0);
     }
 }
