@@ -13,6 +13,7 @@ using AdventOfCode2023.Day18;
 using AdventOfCode2023.Day19;
 using AdventOfCode2023.Day2;
 using AdventOfCode2023.Day20;
+using AdventOfCode2023.Day21;
 using AdventOfCode2023.Day3;
 using AdventOfCode2023.Day4;
 using AdventOfCode2023.Day5;
@@ -28,9 +29,9 @@ namespace AdventOfCode
     {
         static public void Main(String[] args)
         {
-            Day20.Part1();
+            Day21.Part1();
             Console.WriteLine("---------------------------------------");
-            Day20.Part2();
+            Day21.Part2();
         }
     }
 }
