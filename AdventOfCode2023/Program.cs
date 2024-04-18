@@ -25,6 +25,7 @@ using AdventOfCode2023.Day6;
 using AdventOfCode2023.Day7;
 using AdventOfCode2023.Day8;
 using AdventOfCode2023.Day9;
+using AdventOfCode2023.Test;
 using System.Diagnostics;
 
 namespace AdventOfCode
@@ -33,9 +34,10 @@ namespace AdventOfCode
     {
         static public void Main(String[] args)
         {
-            Day25.Part1();
-            Console.WriteLine("---------------------------------------");
-            Day25.Part2();
+            int a = 12;
+            int b = 13;
+            b = a = a++;
+            Console.WriteLine(a.ToString() + " " + b.ToString());
         }
     }
 }
